@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://vive-todo-backend-0e9305a7ff26.herokuapp.com/:path*"
+      "destination": "/api/proxy?path=:path*"
     },
     {
       "source": "/(.*)",
